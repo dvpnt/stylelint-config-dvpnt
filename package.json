@@ -1,0 +1,40 @@
+{
+  "name": "stylelint-config-dvpnt",
+  "version": "1.0.0",
+  "description": "stylelint config for dvpnt projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvpnt/stylelint-config-dvpnt.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig"
+  ],
+  "author": {
+    "name": "psixdev",
+    "email": "psix.dev@yandex.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvpnt/stylelint-config-dvpnt/issues"
+  },
+  "homepage": "https://github.com/dvpnt/stylelint-config-dvpnt#readme",
+  "maintainers": [
+    {
+      "name": "psixdev",
+      "email": "psix.dev@yandex.ru"
+    },
+    {
+      "name": "dvpnt",
+      "email": "contact@dvpnt.com"
+    }
+  ],
+  "directories": {},
+  "dependencies": {
+    "stylelint-config-standard": "14.0.0"
+  }
+}
