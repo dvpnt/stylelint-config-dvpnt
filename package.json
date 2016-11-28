@@ -35,6 +35,10 @@
   ],
   "directories": {},
   "dependencies": {
-    "stylelint-config-standard": "14.0.0"
+    "stylelint-config-standard": "14.0.0",
+    "stylelint-order":  "PsiXdev/stylelint-order#0ba87cf70e17d4e6cb8d5375f18376c4165005ae"
+  },
+  "peerDependencies": {
+    "stylelint": ">=7.6.0"
   }
 }
