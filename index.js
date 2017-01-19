@@ -14,7 +14,6 @@ module.exports = {
 		'color-hex-length': 'long',
 		'selector-pseudo-element-no-unknown': [true, {'ignorePseudoElements': ['scrollbar']}],
 		'order/declaration-block-order': [
-			'mixins',
 			'custom-properties',
 			'declarations',
 			'at-rules',
