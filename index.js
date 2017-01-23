@@ -13,12 +13,6 @@ module.exports = {
 		}],
 		'color-hex-length': 'long',
 		'selector-pseudo-element-no-unknown': [true, {'ignorePseudoElements': ['scrollbar']}],
-		'order/declaration-block-order': [
-			'custom-properties',
-			'declarations',
-			'at-rules',
-			'rules'
-		],
 		'order/declaration-block-property-groups-structure': [
 			{
 				'emptyLineBefore': 'always',
