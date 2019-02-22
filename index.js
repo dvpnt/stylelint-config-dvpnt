@@ -13,6 +13,7 @@ module.exports = {
 		}],
 		'color-hex-length': 'long',
 		'selector-pseudo-element-no-unknown': [true, {'ignorePseudoElements': ['scrollbar']}],
+		'no-descending-specificity': null,
 		'order/properties-order': [{
 			'emptyLineBefore': 'always',
 			'unspecified': 'bottom',
@@ -354,7 +355,12 @@ module.exports = {
 				'-moz-animation-direction',
 				'-ms-animation-direction',
 				'-o-animation-direction',
-				'animation-direction'
+				'animation-direction',
+				'-webkit-animation-fill-mode',
+				'-moz-animation-fill-mode',
+				'-ms-animation-fill-mode',
+				'-o-animation-fill-mode',
+				'animation-fill-mode'
 			]
 		}, {
 			'emptyLineBefore': 'always',
