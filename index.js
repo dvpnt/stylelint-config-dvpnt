@@ -16,6 +16,7 @@ module.exports = {
 		'no-descending-specificity': null,
 		'order/properties-order': [{
 			'emptyLineBefore': 'always',
+			'noEmptyLineBetween': true,
 			'unspecified': 'bottom',
 			'properties': [
 				'content',
@@ -28,6 +29,7 @@ module.exports = {
 			]
 		}, {
 			'emptyLineBefore': 'always',
+			'noEmptyLineBetween': true,
 			'unspecified': 'bottom',
 			'properties': [
 				'display',
@@ -137,6 +139,7 @@ module.exports = {
 			]
 		}, {
 			'emptyLineBefore': 'always',
+			'noEmptyLineBetween': true,
 			'unspecified': 'bottom',
 			'properties': [
 				'list-style',
@@ -218,6 +221,7 @@ module.exports = {
 			]
 		}, {
 			'emptyLineBefore': 'always',
+			'noEmptyLineBetween': true,
 			'unspecified': 'bottom',
 			'properties': [
 				'background',
@@ -315,6 +319,7 @@ module.exports = {
 			]
 		}, {
 			'emptyLineBefore': 'always',
+			'noEmptyLineBetween': true,
 			'unspecified': 'bottom',
 			'properties': [
 				'-webkit-transition',
@@ -390,6 +395,7 @@ module.exports = {
 			]
 		}, {
 			'emptyLineBefore': 'always',
+			'noEmptyLineBetween': true,
 			'unspecified': 'bottom',
 			'properties': [
 				'appearance',
@@ -414,6 +420,7 @@ module.exports = {
 			]
 		}, {
 			'emptyLineBefore': 'always',
+			'noEmptyLineBetween': true,
 			'unspecified': 'bottom',
 			'properties': [
 				'fill',
