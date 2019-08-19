@@ -14,10 +14,10 @@ module.exports = {
 		'color-hex-length': 'long',
 		'selector-pseudo-element-no-unknown': [true, {ignorePseudoElements: ['scrollbar']}],
 		'no-descending-specificity': null,
-		'order/properties-order': [{
+		'order/properties-order': [[{
+			'groupName': 'positioning',
 			'emptyLineBefore': 'always',
 			'noEmptyLineBetween': true,
-			'unspecified': 'bottom',
 			'properties': [
 				'content',
 				'position',
@@ -28,9 +28,9 @@ module.exports = {
 				'z-index'
 			]
 		}, {
+			'groupName': 'block model',
 			'emptyLineBefore': 'always',
 			'noEmptyLineBetween': true,
-			'unspecified': 'bottom',
 			'properties': [
 				'display',
 				'grid',
@@ -138,9 +138,9 @@ module.exports = {
 				'overflow-scrolling'
 			]
 		}, {
+			'groupName': 'typography',
 			'emptyLineBefore': 'always',
 			'noEmptyLineBetween': true,
-			'unspecified': 'bottom',
 			'properties': [
 				'list-style',
 				'list-style-position',
@@ -220,9 +220,9 @@ module.exports = {
 				'page-break-inside'
 			]
 		}, {
+			'groupName': 'visual',
 			'emptyLineBefore': 'always',
 			'noEmptyLineBetween': true,
-			'unspecified': 'bottom',
 			'properties': [
 				'background',
 				'background-color',
@@ -318,9 +318,9 @@ module.exports = {
 				'filter'
 			]
 		}, {
+			'groupName': 'animation',
 			'emptyLineBefore': 'always',
 			'noEmptyLineBetween': true,
-			'unspecified': 'bottom',
 			'properties': [
 				'-webkit-transition',
 				'-moz-transition',
@@ -394,9 +394,9 @@ module.exports = {
 				'animation-fill-mode'
 			]
 		}, {
+			'groupName': 'misc',
 			'emptyLineBefore': 'always',
 			'noEmptyLineBetween': true,
-			'unspecified': 'bottom',
 			'properties': [
 				'appearance',
 				'quotes',
@@ -419,9 +419,9 @@ module.exports = {
 				'zoom'
 			]
 		}, {
+			'groupName': 'filling',
 			'emptyLineBefore': 'always',
 			'noEmptyLineBetween': true,
-			'unspecified': 'bottom',
 			'properties': [
 				'fill',
 				'stroke',
@@ -433,6 +433,9 @@ module.exports = {
 				'stroke-linejoin',
 				'stroke-miterlimit'
 			]
+		}], {
+			'unspecified': 'bottom',
+			'emptyLineBeforeUnspecified': 'always',
 		}]
 	}
 }
